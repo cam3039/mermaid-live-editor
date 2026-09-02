@@ -41,7 +41,7 @@ jobs:
           MERMAID_DOMAIN: ''
           MERMAID_BASE_PATH: '/mermaid-live-editor'
         run: |
-          pnpm install --frozen-lockfile
+          pnpm install
           pnpm build
 
       - name: Upload artifact
